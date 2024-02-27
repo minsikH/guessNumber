@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #c9ffbf,#ffafbd);    
+}
+#numBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    width: 40%;    
+}
+#numBox h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+#numBox p {margin-bottom: 15px;}
+#numBox #chanceText {
+    font-size: 18px;
+    font-weight: 600;
+    color: #A83279;
+    margin-bottom: 20px;
+}
+#numBox #result {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#numBox input[type="Number"] {
+    width: 150px;
+    height: 36px;
+    padding-left: 5px;
+    border: 1px solid #898989;
+    font-size: 20px;
+}
+#numBox input[type="Number"]:focus {outline: 1px solid #9076a9;}
+#numBox .btnArea {margin-top: 20px; text-align: center;}
+#numBox .btnArea button {
+    width: 80px; height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+#numBox #btnPlay.on {background: #898989;}
+#numBox #btnReset {background: slategray;}
+#numBox #btnPlay {background: #000;}
